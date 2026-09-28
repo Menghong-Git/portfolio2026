@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Chamfered square, matching the site's panel corners -->
+  <path d="M0 0H52L64 12V64H12L0 52Z" fill="url(#bg)"/>
+  <!-- "PM" drawn as blocky strokes -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M15 48V17H27V31H15"/>
+    <path d="M35 48V17L42 31L49 17V48"/>
+  </g>
+</svg>
